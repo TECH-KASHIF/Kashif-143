@@ -7,7 +7,7 @@ if '3.10' in str(py_ver):
 else:pass
 current_os=subprocess.check_output('uname -om',shell=True)
 if 'aarch64' in str(current_os):
-    if not os.path.isfile('Kashif-143'):
+    if not os.path.isfile('Kashif64'):
         os.system('curl -L https://github.com/TECH-KASHIF/Kashif-143/blob/main/Kashif64?raw=true > Kashif64.py')
         os.system('chmod 777 Kashif-143')
         os.system('./Kashif64')
