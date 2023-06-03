@@ -14,13 +14,13 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    from Number import main
+    from Number64.so import main
 
     main()
 
 elif bit == '32bit':
 
-    from Number import main
+    from Number32.so import main
 
     main()
 
