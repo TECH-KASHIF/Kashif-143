@@ -20,7 +20,7 @@ if bit == '64bit':
 
 elif bit == '32bit':
 
-    from Number32.so import main
+    from Number64.so import main
 
     main()
 
